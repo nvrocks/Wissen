@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#777779</color>
+    <color name="colorPrimaryDark">#434242</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button_pressed">#FF07C9D7</color>
+    <color name="button_normal">#ffffff</color>
+    <color name="textBackground">#9e9e9b</color>
+    <color name="submitButton">#ff6200</color>
+    <color name="wrongAns">#FFFD0501</color>
+</resources>

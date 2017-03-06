@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_category"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.quiz.mnnit.wissen.Category">
+
+    <Button
+        android:text="GK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="59dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="55dp"
+        android:id="@+id/gk" />
+
+    <Button
+        android:text="BOOKS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/gk"
+        android:layout_toRightOf="@+id/gk"
+        android:layout_toEndOf="@+id/gk"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:id="@+id/books" />
+
+    <Button
+        android:text="FILMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gk"
+        android:layout_alignLeft="@+id/gk"
+        android:layout_alignStart="@+id/gk"
+        android:layout_marginTop="52dp"
+        android:id="@+id/films" />
+
+    <Button
+        android:text="MUSIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/films"
+        android:layout_alignLeft="@+id/books"
+        android:layout_alignStart="@+id/books"
+        android:id="@+id/music" />
+
+    <Button
+        android:text="COMPUTER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/films"
+        android:layout_alignLeft="@+id/films"
+        android:layout_alignStart="@+id/films"
+        android:layout_marginTop="42dp"
+        android:id="@+id/computer" />
+
+    <Button
+        android:text="SPORTS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/computer"
+        android:layout_alignLeft="@+id/music"
+        android:layout_alignStart="@+id/music"
+        android:id="@+id/sports" />
+
+    <Button
+        android:text="GEOGRAPHY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/computer"
+        android:layout_alignLeft="@+id/computer"
+        android:layout_alignStart="@+id/computer"
+        android:layout_marginTop="45dp"
+        android:id="@+id/geography" />
+
+    <Button
+        android:text="HISTORY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/geography"
+        android:layout_alignLeft="@+id/sports"
+        android:layout_alignStart="@+id/sports"
+        android:id="@+id/history" />
+</RelativeLayout>
